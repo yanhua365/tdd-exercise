@@ -120,8 +120,8 @@ def "$testname$"() {
     result == $testmethod$($p0$)
     
     where:
-    $p0$    |   result
-    $p1$    |   $r1$
+    result  |   $p0$ 
+    $r1$    |   $p1$
 }
 ```
 
